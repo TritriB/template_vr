@@ -883,6 +883,7 @@ button:focus:not(:focus-visible) {
 /*---------------------------------------
   PRODUCT               
 -----------------------------------------*/
+
 .front-product {
   background: var(--section-bg-color);
 }
@@ -944,6 +945,8 @@ button:focus:not(:focus-visible) {
 
 .product-p {
   font-size: var(--product-link-font-size);
+  text-align: justify;
+  hyphens: auto;
 }
 
 .view-all {
